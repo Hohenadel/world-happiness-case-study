@@ -8,6 +8,7 @@
 2. [Data](#data)
 3. [Explatory Data Analysis](#explatory-data-analysis)
 4. [Looking Out](#looking-out)
+5. [Sources](#sources)
 
 # Backround & Motivation
 
@@ -26,10 +27,14 @@ The Data uses the following factors to assess the satisfaction of countries:
 
 # Data
 
-The [World Happiness Report has a dataset](https://worldhappiness.report) that is gathered from the Gallup World Poll surveys. It asks respondents to think of a ladder, with the best possible life for them being a 10 and the worst possible life being a 0. They are then asked to rate their own current lives on that 0 to 10 scale.
+The [World Happiness Report has a dataset](https://worldhappiness.report) that is gathered from the Gallup World Poll surveys. It asks respondents to think of a ladder, with the best possible life for them being a 10 and the worst possible life being a 0. They are then asked to rate their own current lives on that 0 to 10 scale. After import and cleaning the data using pandas, I was curious to see which countries were the happiest and least happiest.
 
 # Explatory Data Analysis
-After importing and cleaning the data using pandas, I was curious to see which countries were the happiest and least happiest. Out of the bottom five, four of the countries are in close proximety in South Africa. Afghanistan is noticeably low compared to the other nine countries. Does the 20 year war have a significant impact on the overall health of the country? While the people of Afghanistan are strong, relentless, and fight for a cause, is the Afghan government incompetent because they're corrupt or America's involement has made them soley dependent on America?
+
+The Nordic countries are the highest ranked. Why is that? Well we know that the Nordic countries are known to pay some of the ghiest taxes in the world. The people of the country do not mind as they view it as an investment in their quality of life. Free healthcare and University Education. There is studies that life satisfacation correlates well with relevant brain activity (Urry, 2014).
+
+Out of the bottom five, four of the countries are in close proximety in South Africa. Afghanistan is noticeably low compared to the other nine countries. Does the 20 year war have a significant impact on the overall health of the country? While the people of Afghanistan are strong, relentless, and fight for a cause, is the Afghan government incompetent because they're corrupt or America's involement has made them soley dependent on America?
+
 ![](img/Top%20%26%20Lower%205%20Countries.png)
 
 The following correlation shows the relation between each other. GDP per capita, Social support, and Healthy life expectancy have the highest correlation with the happiest score. It is noticeable that if a country is doing well economically, there is a strong correlation with living longer. Does that mean money can buy happiness? Let's dive a little deeper.
@@ -58,3 +63,8 @@ I am a believer in attending to our Brother's and Sister's. I was curious to see
 
 ![](img/Geopandas.png)
 
+# Sources
+
+Cotofan, M., Authors, & Maria Cotofan Centre for Economic Performance. (2022, May 18). What can we learn from the latest World happiness report? Economics Observatory. Retrieved September 22, 2022, from https://www.economicsobservatory.com/what-can-we-learn-from-the-latest-world-happiness-repor
+
+Urry, H. (2014). Making a life worth living: Neural correlates of well-being. Psychological science. Retrieved September 23, 2022, from https://pubmed.ncbi.nlm.nih.gov/15147488/ 
